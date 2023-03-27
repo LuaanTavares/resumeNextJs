@@ -14,7 +14,7 @@ SwiperCore.use([Autoplay]);
 
 export const Skills = () => {
   return(
-    <section className="md:my-32 max-md:my-16">
+    <section className="md:my-32 max-md:my-16" id='skills'>
       <h1 className="mb-10 text-2xl text-slate-200 text-center">Skills</h1>
       <div className='md:ml-14 px-8 z-0'>
         <Swiper className='flex text-center items-center justify-center'
