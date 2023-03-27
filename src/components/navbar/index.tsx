@@ -30,14 +30,14 @@ export const Navbar = () => {
   
 
   return(
-    <section className={`z-10 w-full fixed  ${scroll ? ' bg-transparent' : 'bg-neutral-900'}`}>
+    <section className={`z-10 w-full fixed  ${scroll ? ' bg-transparent' : 'bg-neutral-900'}`} id="navbar" >
     <div className="flex justify-around items-center w-full max-md:justify-between py-2 px-4">
       <div id="icon" className={`text-slate-200 text-4xl cursor-pointer md:hidden`} onClick={openNavBar}>
         {isCloseOrOpen ? <MdClose/> : <MdDensityMedium/>}
       </div> 
 
       <ul className= {`text-slate-200 flex text-xl font-normal gap-3 justify-center items-center max-md:hidden`}>
-        <a href="#"><li className="w-14 flex justify-center hover:font-semibold duration-75">Main</li></a>
+        <a href="main"><li className="w-14 flex justify-center hover:font-semibold duration-75">Main</li></a>
         <a href="#"><li className="w-14 flex justify-center hover:font-semibold duration-75">About</li></a>
         <a href="#"><li className="w-14 flex justify-center hover:font-semibold duration-75">Skills</li></a>
         <a href="#"><li className="w-14 flex justify-center hover:font-semibold duration-75">Career</li></a>
@@ -47,7 +47,7 @@ export const Navbar = () => {
       </ul>
 
       <div className={`text-slate-200 flex items-center gap-5`}>
-        <h1 className='text-center text-xl'>Luan Tavares</h1>
+        <h1 className='text-center text-xl'>New User</h1>
         <Image className='h-11 w-11 rounded-full' src={Newprofile} alt="user-image" />
       </div>
     </div>
