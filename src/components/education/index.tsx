@@ -14,7 +14,7 @@ export const Education = () => {
         <p>Alcântara - RJ</p>
       </div>
     </div>
-    <div className="flex justify-between md:h-48 w-full max-md:flex-col ">
+    <div className="flex justify-between md:h-48 w-full max-md:flex-col " id="education">
       <div className="md:rounded-l-lg md:w-1/3 bg-neutral-700 bg-opacity-40 flex flex-col items-center justify-center 
         gap-3 py-4 px-20 max-md:rounded-t-lg">
           <p className="text-xl w-32 text-center">2022 - 2024</p>
