@@ -6,6 +6,7 @@ import { Footer } from '@/components/footer'
 import { Main } from '@/components/main'
 import { Navbar } from '@/components/navbar'
 import { Skills } from '@/components/skills'
+import { Projects } from '@/components/projects'
 
 
 const inter = Inter({ subsets: ['latin'] })
@@ -17,6 +18,7 @@ export default function Home() {
       <Main/>
       <div className="bg-black">
         <About />
+        <Projects/>
         <Skills/>
         <Education/>
         <Courses/>

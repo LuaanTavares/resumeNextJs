@@ -4,7 +4,6 @@ import { MdClose } from "react-icons/md";
 import Newprofile from "../../../public/images/new-profile.png";
 import Image from "next/image";
 
-
 export const Navbar = () => {
 
   const [isCloseOrOpen, setIsCloseOrOpen] = useState (false)
@@ -37,11 +36,13 @@ export const Navbar = () => {
       </div> 
 
       <ul className= {`text-slate-200 flex text-xl font-normal gap-3 justify-center items-center max-md:hidden`}>
-        <a href="main"><li className="w-14 flex justify-center hover:font-semibold duration-75">Main</li></a>
+        <a href="#"><li className="w-14 flex justify-center hover:font-semibold duration-75">Main</li></a>
         <a href="#"><li className="w-14 flex justify-center hover:font-semibold duration-75">About</li></a>
+        <a href="#"><li className="w-24 flex justify-center hover:font-semibold duration-75">Projects</li></a>
         <a href="#"><li className="w-14 flex justify-center hover:font-semibold duration-75">Skills</li></a>
         <a href="#"><li className="w-14 flex justify-center hover:font-semibold duration-75">Career</li></a>
         <a href="#"><li className="w-24 flex justify-center hover:font-semibold duration-75">Education</li></a>
+        <a href="#"><li className="w-16 flex justify-center hover:font-semibold duration-75">Courses</li></a>
         <a href="#"><li className="w-40 flex justify-center hover:font-semibold duration-75">More About Me</li></a>
         <a href="#"><li className="w-14 flex justify-center hover:font-semibold duration-75">Footer</li></a>
       </ul>
@@ -55,9 +56,11 @@ export const Navbar = () => {
     <ul className= {`text-slate-50 flex flex-col text-xl gap-3 justify-center py-4 items-center md:hidden bg-opacity-80 ${scroll ? ' bg-black' : 'bg-neutral-900'} ${isCloseOrOpen ? 'visible':'hidden' }`}>
       <a href="#"><li className="w-20 flex justify-center hover:font-semibold duration-75">Main</li></a>
       <a href="#"><li className="w-20 flex justify-center hover:font-semibold duration-75">About</li></a>
+      <a href="#"><li className="w-24 flex justify-center hover:font-semibold duration-75">Projects</li></a>
       <a href="#"><li className="w-20 flex justify-center hover:font-semibold duration-75">Skills</li></a>
       <a href="#"><li className="w-20 flex justify-center hover:font-semibold duration-75">Career</li></a>
       <a href="#"><li className="w-24 flex justify-center hover:font-semibold duration-75">Education</li></a>
+      <a href="#"><li className="w-20 flex justify-center hover:font-semibold duration-75">Courses</li></a>
       <a href="#"><li className="w-40 flex justify-center hover:font-semibold duration-75">More About Me</li></a>
       <a href="#"><li className="w-20 flex justify-center hover:font-semibold duration-75">Footer</li></a>
     </ul>
