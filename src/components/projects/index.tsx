@@ -6,7 +6,7 @@ import outro from "../../../public/images/outro.png";
 
 export const Projects = () =>{
   return(
-    <div className="md:my-32 text-center max-md:my-16 px-6">
+    <div className="md:my-32 text-center max-md:my-16 px-6" id="projects">
       <h1 className="mb-10 text-2xl text-slate-200 text-center">Projects</h1>
       <section className="flex justify-around md:flex-row md:gap-4 text-white max-md:flex-col gap-10" >
         <div className="md:w-1/3">
