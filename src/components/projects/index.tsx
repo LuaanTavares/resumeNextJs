@@ -12,13 +12,13 @@ export const Projects = () =>{
         <div className="md:w-1/3">
           <Image className="rounded-xl mb-4" src={resume} alt="resume" />
           <p>Aqui temos o meu resume, o mesmo que você está navegando neste momento, onde contém minhas informações pessoais, 
-            como contatos, experiências, cursos e outras coisas. Fique à vontade para visitar meu repositório no GitHub ou ver o
+            como contatos, experiências, cursos e outras coisas. Para este projeto, utilizei ReactJS, Nextjs e TailwindCSS. Fique à vontade para visitar meu repositório no GitHub ou ver o
             o deploy do projeto no Vercel.
             <a className="text-cyan-800 font-bold" href="https://resume-next-js-six.vercel.app/"> Clique aqui para visualizar no Vercel</a> ou <a className="text-cyan-800 font-bold" href="https://github.com/LuaanTavares/resume_nextJs"> Clique aqui para visualizar no GitHub</a></p>
         </div>
         <div className="md:w-1/3">
           <Image className="rounded-xl mb-4" src={netflix} alt="netflix" />
-          <p>Este é um clone da tela NetFlix, onde consumo a API do TMDB (The Movie Database). Fique à vontade para visitar meu repositório no GitHub ou ver o
+          <p>Este é um clone da tela NetFlix, onde consumo a API do TMDB (The Movie Database) utilizando ReactJS. Fique à vontade para visitar meu repositório no GitHub ou ver o
             o deploy do projeto no Vercel.
             <a className="text-cyan-800 font-bold" href="https://netflix-clone-one-ebon.vercel.app/"> Clique aqui para visualizar no Vercel</a> ou <a className="text-cyan-800 font-bold" href="https://github.com/LuaanTavares/netflix_clone"> Clique aqui para visualizar no GitHub</a></p>
         </div>
