@@ -1,6 +1,6 @@
 export const Education = () => {
   return(
-    <section className=" text-slate-200 flex flex-col gap-6 items-center py-2 px-6 my-20 ">
+    <section className=" text-slate-200 flex flex-col gap-6 items-center py-2 px-6 my-20" id="education">
     <h1 className="text-2xl">Education</h1>
     <div className="flex justify-between md:h-48 w-full max-md:flex-col ">
       <div className="md:rounded-l-lg md:w-1/3 bg-neutral-700 bg-opacity-40 flex flex-col items-center justify-center 
