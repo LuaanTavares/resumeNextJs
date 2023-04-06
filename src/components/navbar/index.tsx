@@ -3,6 +3,8 @@ import { MdDensityMedium } from "react-icons/md";
 import { MdClose } from "react-icons/md";
 import Newprofile from "../../../public/images/new-profile.png";
 import Image from "next/image";
+import Link from "next/link";
+
 
 export const Navbar = () => {
 
@@ -42,7 +44,7 @@ export const Navbar = () => {
         <a href="#skills"><li className="w-14 flex justify-center hover:font-semibold duration-75">Skills</li></a>
         <a href="#education"><li className="w-24 flex justify-center hover:font-semibold duration-75">Education</li></a>
         <a href="#courses"><li className="w-16 flex justify-center hover:font-semibold duration-75">Courses</li></a>
-        <a href="#footer"><li className="w-14 flex justify-center hover:font-semibold duration-75">Footer</li></a>
+        <a href="#footer"><li className="w-16 flex justify-center hover:font-semibold duration-75">Footer</li></a>
       </ul>
 
       <div className={`text-slate-200 flex items-center gap-5`}>
