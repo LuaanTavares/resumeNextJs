@@ -1,6 +1,6 @@
 export const About = () => {
   return(
-    <section className=" text-slate-200 flex justify-center mx-auto px-2 px-6 md:py-20 max-md:py-6" id="about">
+    <section className=" text-slate-200 flex justify-center mx-auto px-6 md:py-20 max-md:py-6" id="about">
         <div className="flex justify-center gap-10 md:gap-24 p-4 rounded-lg bg-neutral-800 bg-opacity-40 max-md:flex-col">
           <div className="flex flex-col md:w-2/3 max-md: items-center gap-8">
             <h1 className="text-2xl">About</h1>
