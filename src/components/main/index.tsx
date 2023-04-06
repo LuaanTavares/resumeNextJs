@@ -6,7 +6,6 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import Image from "next/image";
-import Link from 'next/link';
 
 
 export const Main = () => {
