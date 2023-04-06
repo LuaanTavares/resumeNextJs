@@ -1,3 +1,4 @@
+import React from 'react';
 import background from "../../../public/images/background.jpeg";
 import profile from "../../../public/images/profile.png";
 import { AiFillGithub } from "react-icons/ai";
@@ -5,6 +6,8 @@ import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
 import { AiOutlineWhatsApp } from "react-icons/ai";
 import Image from "next/image";
+import Link from 'next/link';
+
 
 export const Main = () => {
   return (
@@ -28,30 +31,42 @@ export const Main = () => {
 
           <div className="flex flex-col items-center">
             <p className=" my-4 text-4xl">Luan Tavares</p>
-            <div className="flex gap-5 justify-center my-6">
-              <a href="https://wa.me/+5521973742623">
-                <button className=" font-medium bg-cyan-600 rounded-md px-1 w-32 h-8 hover:bg-cyan-800 duration-100">
-                  Hire me
-                </button>
-              </a>
-              <a href="">
-                <button className=" font-medium bg-cyan-600 rounded-md px-1 w-32 h-8 hover:bg-cyan-800 duration-100">
-                  Download CV
-                </button>
-              </a>
+            <div className="flex gap-5 justify-center items-center my-6">
+              <a className='flex items-center justify-center font-medium bg-cyan-600 rounded-md px-1 w-32 h-8 hover:bg-cyan-800 duration-100' target='_blank' href="https://wa.me/+5521973742623" >
+              Hire me </a>
+              
+              <a className='flex items-center justify-center font-medium bg-cyan-600 rounded-md px-1 w-32 h-8 hover:bg-cyan-800 duration-100' target='_blank' href='https://drive.google.com/file/d/1yT8U_k25y1MuMkiCLjxoy1rJsD1wYu0d/view?usp=share_link'
+              download >Download CV</a>
             </div>
           </div>
+
           <div className=" my-1 flex justify-center gap-4 rounded-full bg-black">
-            <a className=" rounded-full" target="_blank" href="https://www.linkedin.com/in/luantavares0206/">
+            <a
+              className=" rounded-full"
+              target="_blank"
+              href="https://www.linkedin.com/in/luantavares0206/"
+            >
               <AiFillLinkedin className="text-4xl rounded-full " />
             </a>
-            <a className=" rounded-full" target="_blank" href="https://github.com/LuaanTavares">
+            <a
+              className=" rounded-full"
+              target="_blank"
+              href="https://github.com/LuaanTavares"
+            >
               <AiFillGithub className="text-4xl rounded-full " />
             </a>
-            <a className=" rounded-full" target="_blank" href="https://www.instagram.com/tavaresluan_/">
+            <a
+              className=" rounded-full"
+              target="_blank"
+              href="https://www.instagram.com/tavaresluan_/"
+            >
               <AiOutlineInstagram className="text-4xl rounded-full " />
             </a>
-            <a className=" rounded-full" target="_blank" href="https://wa.me/+5521973742623">
+            <a
+              className=" rounded-full"
+              target="_blank"
+              href="https://wa.me/+5521973742623"
+            >
               <AiOutlineWhatsApp className="text-4xl rounded-full " />
             </a>
           </div>
