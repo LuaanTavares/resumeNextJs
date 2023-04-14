@@ -24,7 +24,7 @@ export const Projects = () =>{
         </div>
         <div className="md:w-1/3">
           <Image className="rounded-xl mb-4" src={crude} alt="outro" />
-          <p>Neste projeto eu fiz um CRUDE muito simples, usando ReactJS, NodeJS, NestJS e MongoDB. É possível adicionar, editar, procurar e deletar 
+          <p>Neste projeto eu fiz um CRUD muito simples, usando ReactJS, NodeJS, NestJS e MongoDB. É possível adicionar, editar, procurar e deletar 
             usuários através do ID. Fique à vontade para visitar meu repositório no GitHub.
           <a target="_blank" className="text-cyan-800 font-bold" href="https://github.com/LuaanTavares/crudeNestJS"> Clique aqui para visualizar no GitHub</a></p>
         </div>
