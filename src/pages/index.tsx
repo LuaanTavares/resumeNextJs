@@ -6,10 +6,6 @@ import { Main } from "@/components/main";
 import { Navbar } from "@/components/navbar";
 import { Skills } from "@/components/skills";
 import { Projects } from "@/components/projects";
-<<<<<<< HEAD
-=======
-
->>>>>>> 4423eb4145de2100f03253489d7157e2e9e82843
 import { NextSeo } from "next-seo";
 
 
@@ -45,10 +41,6 @@ export default function Home() {
         <Education />
         <Courses />
         <Footer />
-<<<<<<< HEAD
-=======
-      
->>>>>>> 4423eb4145de2100f03253489d7157e2e9e82843
       </div>
     </>
   );
