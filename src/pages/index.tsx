@@ -42,7 +42,7 @@ export default function Home() {
         <Education />
         <Courses />
         <Footer />
-        <Teste />
+      
       </div>
     </>
   );
