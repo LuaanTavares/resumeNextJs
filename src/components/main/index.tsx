@@ -22,10 +22,10 @@ export const Main = () => {
         style={{ background: `url(${background})` }}
       >
         <div className="flex justify-center items-center flex-col p-4 h-screen w-full bg-gradient-to-t from-black to-transparent">
-          <Image
+          <Image priority
             src={profile}
             alt="profile-image"
-            className="shadow-black shadow-xl p-3 rounded-full w-44 md:w-60"
+            className="shadow-black shadow-xl p-3 rounded-full  md:w-60"
           />
 
           <div className="flex flex-col items-center">
@@ -39,7 +39,7 @@ export const Main = () => {
             </div>
           </div>
 
-          <div className=" my-1 flex justify-center gap-4 rounded-full bg-black">
+          <div className=" my-1 p-1 flex justify-center gap-4 rounded-full bg-black">
             <a
               className=" rounded-full"
               target="_blank"

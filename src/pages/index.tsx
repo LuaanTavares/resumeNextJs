@@ -1,30 +1,49 @@
-import { Inter } from 'next/font/google'
-import { About } from '@/components/about'
-import { Courses } from '@/components/courses'
-import { Education } from '@/components/education'
-import { Footer } from '@/components/footer'
-import { Main } from '@/components/main'
-import { Navbar } from '@/components/navbar'
-import { Skills } from '@/components/skills'
-import { Projects } from '@/components/projects'
+import { About } from "@/components/about";
+import { Courses } from "@/components/courses";
+import { Education } from "@/components/education";
+import { Footer } from "@/components/footer";
+import { Main } from "@/components/main";
+import { Navbar } from "@/components/navbar";
+import { Skills } from "@/components/skills";
+import { Projects } from "@/components/projects";
+import { Teste } from "@/components/teste";
+import { NextSeo } from "next-seo";
 
-
-const inter = Inter({ subsets: ['latin'] })
 
 export default function Home() {
   return (
     <>
-      <Navbar/>
-      <Main/>
+      <NextSeo
+        title="Luan Tavares"
+        description="Olá! Seja bem vindo ao meu currículo profissional! Caso tenha interesse em saber mais sobre mim, por favor, entre em contato."
+        openGraph={{
+          title: "Luan Tavares",
+          description:
+           "Olá! Seja bem vindo ao meu currículo profissional! Caso tenha interesse em saber mais sobre mim, por favor, entre em contato.",
+          images: [
+            {
+              url: "https://avatars.githubusercontent.com/u/113513445?s=96&v=4",
+              width: 500,
+              height: 300,
+              alt: "img",
+              type: "image/jpeg",
+            },
+          ],
+          siteName: "Portfólio",
+        }}
+      />
+
+      <Navbar />
+      <Main />
       <div className="bg-black">
         <About />
-        <Projects/>
-        <Skills/>
-        <Education/>
-        <Courses/>
-        <Footer/>
+        <Projects />
+        <Skills />
+        <Education />
+        <Courses />
+        <Footer />
+        <Teste />
       </div>
-     
     </>
-  )
+  );
 }
