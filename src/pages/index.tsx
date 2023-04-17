@@ -6,7 +6,7 @@ import { Main } from "@/components/main";
 import { Navbar } from "@/components/navbar";
 import { Skills } from "@/components/skills";
 import { Projects } from "@/components/projects";
-import { Teste } from "@/components/teste";
+
 import { NextSeo } from "next-seo";
 
 
@@ -42,7 +42,7 @@ export default function Home() {
         <Education />
         <Courses />
         <Footer />
-        <Teste />
+      
       </div>
     </>
   );
