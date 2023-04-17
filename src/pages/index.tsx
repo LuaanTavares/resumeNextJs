@@ -21,7 +21,7 @@ export default function Home() {
            "Olá! Seja bem vindo ao meu currículo profissional! Caso tenha interesse em saber mais sobre mim, por favor, entre em contato.",
           images: [
             {
-              url: "https://avatars.githubusercontent.com/u/113513445?s=96&v=4",
+              url: "https://avatars.githubusercontent.com/u/113513445",
               width: 500,
               height: 300,
               alt: "img",
