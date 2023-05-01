@@ -1,13 +1,13 @@
 import {Swiper, SwiperSlide} from 'swiper/react';
 import 'swiper/css';
 import SwiperCore, { Autoplay } from "swiper";
-import htmlImage from "../../../public/images/html.png";
-import cssImage from "../../../public/images/css.png";
-import javascriptImage from "../../../public/images/javascript.png";
-import reactImage from "../../../public/images/react.png";
-import nodeImage from "../../../public/images/node.png";
-import mongoImage from "../../../public/images/mongodb.png";
-import gitImage from "../../../public/images/git.png";
+import htmlImage from "../../../../public/images/html.png";
+import cssImage from "../../../../public/images/css.png";
+import javascriptImage from "../../../../public/images/javascript.png";
+import reactImage from "../../../../public/images/react.png";
+import nodeImage from "../../../../public/images/node.png";
+import mongoImage from "../../../../public/images/mongodb.png";
+import gitImage from "../../../../public/images/git.png";
 import Image from 'next/image';
 
 SwiperCore.use([Autoplay]);

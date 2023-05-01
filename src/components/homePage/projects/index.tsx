@@ -1,8 +1,8 @@
 import React from "react";
 import Image from "next/image";
-import resume from "../../../public/images/resume.png";
-import netflix from "../../../public/images/netflix.png";
-import crude from "../../../public/images/crude.png";
+import resume from "../../../../public/images/resume.png";
+import netflix from "../../../../public/images/netflix.png";
+import crude from "../../../../public/images/crude.png";
 
 export const Projects = () =>{
   return(

@@ -1,9 +1,8 @@
 import { useState } from "react";
 import { MdDensityMedium } from "react-icons/md";
 import { MdClose } from "react-icons/md";
-import Newprofile from "../../../public/images/new-profile.png";
+import Newprofile from "../../../../public/images/new-profile.png";
 import Image from "next/image";
-import Link from "next/link";
 
 
 export const Navbar = () => {
