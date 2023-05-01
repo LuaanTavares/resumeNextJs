@@ -1,8 +1,9 @@
-// import React from "react";
+import React from "react";
 
-// export const Dashboard = () =>{
-//   return(
-//     <>
-//     </>
-//   )
-// }
+export const Dashboard = () => {
+  return (
+    <>
+      <h1>oi</h1>
+    </>
+  );
+};
