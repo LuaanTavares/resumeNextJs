@@ -1,6 +1,6 @@
 import React from "react";
 
-export const Dashboard = () => {
+export default function Dashboard (){
   return (
     <>
       <h1>oi</h1>
