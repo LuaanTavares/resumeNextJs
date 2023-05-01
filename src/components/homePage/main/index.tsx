@@ -1,6 +1,6 @@
 import React from 'react';
-import background from "../../../public/images/background.jpeg";
-import profile from "../../../public/images/profile.png";
+import background from "../../../../public/images/background.jpeg";
+import profile from "../../../../public/images/profile.png";
 import { AiFillGithub } from "react-icons/ai";
 import { AiFillLinkedin } from "react-icons/ai";
 import { AiOutlineInstagram } from "react-icons/ai";
