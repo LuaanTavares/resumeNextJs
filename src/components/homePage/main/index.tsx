@@ -25,7 +25,7 @@ export const Main = () => {
           <Image priority
             src={profile}
             alt="profile-image"
-            className="shadow-black shadow-xl p-3 rounded-full  md:w-60"
+            className="shadow-black shadow-xl p-3 rounded-full max-md:w-52 md:w-60"
           />
 
           <div className="flex flex-col items-center">
